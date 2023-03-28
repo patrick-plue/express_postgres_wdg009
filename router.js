@@ -33,7 +33,6 @@ router.post("/user", async (req, res) => {
   } catch (e) {
     res.sendStatus(403);
   }
-  res.end();
 });
 
 router.put("/user/:id", async (req, res) => {
